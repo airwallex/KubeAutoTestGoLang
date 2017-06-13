@@ -6,7 +6,7 @@ import (
 )
 
 func TestMessage(t *testing.T) {
-	funResponse := string("Hello World")
+	funResponse := string("Banana")
 
 	if !strings.Contains(funResponse, Message()) {
 		t.Errorf("Expecting %v but got %v", funResponse, Message())
