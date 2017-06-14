@@ -9,6 +9,7 @@ pipeline:
       - go get
       - go test
       - go build
+
   docker:
     image: plugins/docker
     tags:
