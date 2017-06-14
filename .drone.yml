@@ -9,3 +9,12 @@ pipeline:
       - go get
       - go test
       - go build
+
+  pipeline:
+  docker:
+    image: plugins/docker
+    tags:
+      - latest
+      - 1.0
+    repo: registry.dev.airwallex.awx:5000/KubeAutoTestingGoLang
+    registry: registry.dev.airwallex.awx:5000
