@@ -15,5 +15,5 @@ pipeline:
     tags:
       - latest
       - 1.0
-    repo: registry.dev.airwallex.awx:5000/KubeAutoTestingGoLang
+    repo: registry.dev.airwallex.awx:5000/kubeautotestinggolang
     registry: registry.dev.airwallex.awx:5000
