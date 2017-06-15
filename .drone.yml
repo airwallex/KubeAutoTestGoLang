@@ -15,5 +15,6 @@ pipeline:
     tags:
       - latest
       - 1.0
+    insecure: true
     repo: registry.dev.airwallex.awx:5000/kubeautotestinggolang
     registry: registry.dev.airwallex.awx:5000
